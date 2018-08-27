@@ -21,5 +21,7 @@ import internal.GlobalVariable as GlobalVariable
 
 WebUI.delay(4)
 
+WebUI.acceptAlert()
+
 WebUI.closeBrowser(FailureHandling.STOP_ON_FAILURE)
 
